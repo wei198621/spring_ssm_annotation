@@ -113,4 +113,22 @@ public class testSpring {
         </action>
     </package>
 </struts>
- 
+
+
+ 六、 相关sql
+CREATE DATABASE ssm;
+
+use ssm;
+
+CREATE TABLE user
+(
+Id int,
+name varchar(255),
+age int,
+bir date
+);
+
+use ssm;
+insert INTO USER VALUES (1,'zhangsan',11,'2020/11/11');
+insert INTO USER VALUES (2,'lisi',22,'2020/12/12');
+
