@@ -8,6 +8,7 @@ import java.util.List;
  * Content:
  */
 public interface BaseDao<T> {
+
     public void save(T t);
     public List<T> findAll();
 }
